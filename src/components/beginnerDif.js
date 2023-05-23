@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const BeginnerDiff = () => {
   const [workout, setWorkout] = useState([]);
@@ -22,6 +22,7 @@ const BeginnerDiff = () => {
   };
 
   return (
+    <>
     <div>
       <button type="submit" onClick={easyWork}>
         Beginner Workouts
@@ -32,12 +33,16 @@ const BeginnerDiff = () => {
           <h2>Workouts</h2>
           <ul>
             {workout.map((exercise) => (
+              <>
               <li key={exercise.id}>{exercise.name}</li>
-            ))}
+              <li>{exercise.instructions}</li>
+              </>
+              ))}
           </ul>
         </div>
       )}
     </div>
+    </>
   );
 };
 

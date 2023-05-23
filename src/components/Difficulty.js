@@ -19,7 +19,9 @@ const Difficulty = ({ beginner, intermediate, expert }) => {
     <div>
       <section style={workoutSection}>
         <p style={individualbutton}><BeginnerDiff /> </p>
+
         <p style={individualbutton} ><IntDiff /> </p>
+
         <p style={individualbutton}><ExpertDiff /> </p>
 
       </section>
@@ -29,3 +31,7 @@ const Difficulty = ({ beginner, intermediate, expert }) => {
 }
 
 export default Difficulty
+
+//<Link to= "/beginnerDif">Beginner Workouts</Link>
+//<Link to= "/IntDiff">Intermediate Workouts</Link>
+//<Link to= "/ExpertDiff">Expert Workouts</Link>

@@ -13,7 +13,7 @@ const ExpertDiff = () => {
             console.log(response)
 
             setWorkout(jsonData);
-  
+
         } catch (error) {
             console.error('Error fetching workout:', error);
         }
@@ -30,7 +30,10 @@ const ExpertDiff = () => {
                     <h2>Workouts</h2>
                     <ul>
                         {workout.map((exercise) => (
-                            <li key={exercise.id}>{exercise.name}</li>
+                            <>
+                                <li key={exercise.id}>{exercise.name}</li>
+                                <li>{exercise.instructions}</li>
+                            </>
                         ))}
                     </ul>
                 </div>
