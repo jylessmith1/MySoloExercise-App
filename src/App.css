@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Nav-link{
+  color: #782d7f,
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +40,103 @@
     transform: rotate(360deg);
   }
 }
+.beginButton {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 14px;
+
+
+}
+
+/* .workoutCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-info {
+  display: flex;
+} */
+
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+
+* {
+  box-sizing: border-box;
+}
+
+.shapeTitle {
+  
+  border-radius: 3rem;
+  color: rgb(225, 225, 211);
+  
+  font-size: 3rem;
+  font-weight: 230;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: .1s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+
+.shapeTitle::after {
+  background-color: rgb(167, 146, 146);
+  border-radius: 3rem;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.shapeTitle:hover::after {
+  transform: translate(0, 0);
+}
+/* 
+.shapeTitle:hover {
+  border: 2px solid transparent;
+  color: indigo;
+  transform: scale(1.05);
+  will-change: transform;
+} */
