@@ -39,35 +39,50 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.beginButton {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: double;
-  display: inline-block;
-  font-size: 14px;
-
-
-}
-
-/* .workoutCard {
+.buttonSection {
   display: flex;
   justify-content: space-evenly;
+ align-items: center;
 }
 
-.card-info {
+.firstButton, .secondButton, .thirdButton {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.firstButton {
+  background-color: #a0d68c; 
+}
+.secondButton {
+  background-color: #d9e964;
+}
+
+.thirdButton {
+  background-color: #e9572f;
+}
+
+.firstButton:hover, .secondButton:hover, .thirdButton:hover {
+  background-color: #644863; 
+  color: #FFFFFF; 
+}
+
+.threeButtons {
   display: flex;
-} */
+  justify-content: space-between;
+  padding: 5%;
+  border-radius: 10px;
+} 
+
+.firstButton:not(:last-child),
+.secondButton:not(:last-child),
+.thirdButton:not(:last-child) {
+  margin-right: 6px; /* Adjust the value as per your desired spacing */
+}
+
 
 
 
@@ -141,10 +156,10 @@
 .shapeTitle:hover::after {
   transform: translate(0, 0);
 }
-/* 
+
 .shapeTitle:hover {
   border: 2px solid transparent;
   color: indigo;
   transform: scale(1.05);
   will-change: transform;
-} */
+}

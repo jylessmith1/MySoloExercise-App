@@ -17,16 +17,22 @@ function App() {
     <>
       <div className="App">
         <Header />
-        <nav>
-          <button className='beginButton'>
-            <NavLink to="/beginnerDif"  >Beginner Workouts</NavLink>
-          </button>
-          <button className='beginButton'>
-            <NavLink to="/IntDiff">Intermediate Workouts</NavLink>
-          </button>
-          <button className='beginButton'>
-            <NavLink to="/ExpertDiff">Expert Workouts</NavLink>
-          </button>
+
+        <nav className='threeButtons'>
+
+          <div className='buttonSection' >
+            <button className='firstButton'>
+              <NavLink to="/beginnerDif"  >Beginner Workouts</NavLink>
+            </button>
+         
+            <button className='secondButton'>
+              <NavLink to="/IntDiff">Intermediate Workouts</NavLink>
+            </button>
+         
+            <button className='thirdButton'>
+              <NavLink to="/ExpertDiff">Expert Workouts</NavLink>
+            </button>
+          </div>
         </nav>
       </div>
 
