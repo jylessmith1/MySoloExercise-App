@@ -30,7 +30,7 @@ const IntDiff = () => {
       };
     return (
         <>
-      <div>
+      <div className='beginContainer'>
         <button onClick={handleGoBack}>Go Back</button>
         {workout.length > 0 && (
           <div>
@@ -40,9 +40,12 @@ const IntDiff = () => {
             <div className="cardContainer">
               {workout.map((exercise) => (
                 <div key={exercise.id} className="card">
-                  <h3>{exercise.name}</h3>
-                  <p>{exercise.instructions}</p>
-                </div>
+                <h3>{exercise.name}</h3>
+                <h4>{exercise.type} -  
+                 {exercise.equipment}</h4>
+                 <h5>{exercise.muscle}</h5>
+                <p>{exercise.instructions}</p>
+              </div>
               ))}
             </div>
           </div>

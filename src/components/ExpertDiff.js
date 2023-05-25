@@ -34,7 +34,7 @@ const ExpertDiff = () => {
 
     return (
         <>
-            <div>
+            <div className='beginContainer'>
                 <button onClick={handleGoBack}>Go Back</button>
                 {workout.length > 0 && (
                     <div>
@@ -45,6 +45,9 @@ const ExpertDiff = () => {
                             {workout.map((exercise) => (
                                 <div key={exercise.id} className="card">
                                     <h3>{exercise.name}</h3>
+                                    <h4>{exercise.type} -
+                                        {exercise.equipment}</h4>
+                                    <h5>{exercise.muscle}</h5>
                                     <p>{exercise.instructions}</p>
                                 </div>
                             ))}

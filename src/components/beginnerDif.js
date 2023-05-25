@@ -31,10 +31,10 @@ const BeginnerDiff = () => {
 
   return (
     <>
-      <div>
+      <div className='beginContainer'>
         <button onClick={handleGoBack}>Go Back</button>
         {workout.length > 0 && (
-          <div>
+          <div >
             <div className="workoutHeader">
             <h2>Workouts</h2>
             </div>
