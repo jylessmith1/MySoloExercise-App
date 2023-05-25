@@ -24,6 +24,42 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.log-in {
+  display: flex;
+  justify-content: space-evenly;
+  color: slategrey;
+
+}
+.log-in h6 {
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 8px;
+  border: none;
+  background: none;
+}
+
+.log-in h6:hover {
+  opacity: 1;
+}
+
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+  color: slategrey;
+
+}
+
+.contactSection h6 {
+  cursor: pointer;
+  opacity: 0.6;
+  padding: 8px;
+  border: none;
+  background: none;
+}
+
+.contactSection h6:hover {
+  opacity: 1;
+}
 
 /* .App-header {
   background-color: #282c34;

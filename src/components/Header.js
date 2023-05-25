@@ -7,8 +7,14 @@ const Header = () => {
     <>
 
       <header className="App-header">
+
+        <div className='log-in'>
+          <link rel="stylesheet" href="" /><h6> Login</h6>
+          <link rel="stylesheet" href="" /><h6>Sign up</h6>
+        </div>
+
         <article>
-       
+
 
           <h1 className='shapeTitle'>🦾ShapeShifters🦾</h1>
           <br />
@@ -19,8 +25,8 @@ const Header = () => {
         </article>
 
         {/* <Difficulty /> */}
-          <br />
-          <br />
+        <br />
+        <br />
       </header>
     </>
   );

@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## SOLO-EXERCISE-APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# -ShapeShifters-
 
-## Available Scripts
+# Description:
+    This app was created for individuals who want to go to the gym but a lot of times do not know what to do and don't wanna look crazy just doing what they see others doing or making things up. sometimes this can be the main hindrance in people even going to the gym. With shapeShifters we provide many workouts and exercises for all type of gym goers or even those that want to workout at home we have all types of workouts.
 
-In the project directory, you can run:
+# to Install and Run the Project
 
-### `npm start`
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
+Install the dependencies: npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Start the application: npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+the application will run on: https://my-solo-project-workingout.onrender.com
 
-### `npm test`
+# To Use the Project
+    The app itslef is pretty simple to understand and use by design sometimes the motivation going to the gym is a lot of just beliveing that its alll hard or you have to do hrs and hrs a day everyday but this app will show that you dont have to do the extreme to be fit and start your exercise/workout Journey. we only have three buttons to get started depending where you are in your journey you click the appropriate button and start your Shape Shifting journey.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ # WireFrames 
+ ![Alt text](img/20230525_112135.jpg)
+ ![Alt text](img/20230525_112142.jpg)
+ ![Alt text](img/20230525_112152.jpg)

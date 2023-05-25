@@ -34,6 +34,11 @@ function App() {
             </button>
           </div>
         </nav>
+        <section className='contactSection' >
+          <h6>About-Us </h6>
+          <h6>Contact</h6>
+          <h6>F.A.Q</h6> 
+        </section>
       </div>
 
       <Routes>
